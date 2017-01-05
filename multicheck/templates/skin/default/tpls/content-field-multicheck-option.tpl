@@ -1,0 +1,2 @@
+<option value="multicheck" {if $_aRequest.field_type=='multicheck'}selected{/if} title="{$aLang.plugin.multicheck.contenttypes_field_multicheck_notice}">
+	{$aLang.plugin.multicheck.contenttypes_field_multicheck}</option>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <id>multicheck</id>
+    <name>
+        <lang name="default">Multicheck</lang>
+        <lang name="russian">Multicheck</lang>
+    </name>
+    <author>
+        <lang name="default">Segr</lang>
+        <lang name="russian">Segr</lang>
+    </author>
+    <homepage>http://www.nashalife.ru</homepage>
+    <version>0.2.2</version>
+    <dirname>multicheck</dirname>
+    <requires>
+        <alto>
+             <version>1.1.8</version>
+        </alto>
+        <system>
+            <php>5.3.0</php>
+        </system>
+    </requires>
+    <description>
+        <lang name="default">It allows to create the "multi check" fields for content types.</lang>
+        <lang name="russian">Позволяет в админке создавать поле множественного выбора для типов контента.</lang>
+    </description>
+</plugin>
+<!--
+	0.2.1 - исправлено сохранение параметров в админке
+	0.2.2 - вывод тегов чекбоксов при редактировании
+-->
